@@ -1,55 +1,59 @@
-def functionName(parameters):
-    statement(s)
+# def functionName(parameters):
+#     statement(s)
 
 
-def fun(a):
-    print(a)
+# def fun(a):
+#     print(a)
 
-fun(6) # correct
-# fun(1,2) # error
-fun((3,4)) # tuple
+# fun(6) # correct
+# # fun(1,2) # error
+# fun((3,4)) # tuple
 
-#  accept as tuple
-def newfun(*a):
-    print(a)
-    print(type(a))
-newfun(5,6,7,8,6) 
-
-
-# def new(**p):
-#     print(p,)
-# new(2)
+# #  accept as tuple
+# def newfun(*a):
+#     print(a)
+#     print(type(a))
+# newfun(5,6,7,8,6) 
 
 
-# def func(b,*a):
-#     print("b is ", b)
-#     print("a is  tuple", a)
-# print(func(1,2,3,4,5,6,7,8))
-
-# for c in "ayanKhan":
-#     print(c, ord(c))
+# # def new(**p):
+# #     print(p,)
+# # new(2)
 
 
-def mysum(*a):
-    total=0
-    for ele in a:
-        print(total, "+", ele, "=")
-        total+=ele
-        print(total)
-    return total
-# print(mysum(2,3,4,5,6))
+# # def func(b,*a):
+# #     print("b is ", b)
+# #     print("a is  tuple", a)
+# # print(func(1,2,3,4,5,6,7,8))
+
+# # for c in "ayanKhan":
+# #     print(c, ord(c))
 
 
-total=mysum  # function pointer
-# print(total(2,3))
+# def mysum(*a):
+#     total=0
+#     for ele in a:
+#         print(total, "+", ele, "=")
+#         total+=ele
+#         print(total)
+#     return total
+# # print(mysum(2,3,4,5,6))
 
 
-# overloading
-def num(a,b):
-    print("first")
+# total=mysum  # function pointer
+# # print(total(2,3))
 
-def num(a,b,c):
-    print("ye")
-num()
-num(1,2)
-num(1,2,3)
+
+# # overloading
+# def num(a,b):
+#     print("first")
+
+# def num(a,b,c):
+#     print("ye")
+# num()
+# num(1,2)
+# num(1,2,3)
+
+
+x = 5, 10
+print(x)
