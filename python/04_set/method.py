@@ -21,11 +21,19 @@
 # update()	Update the set with the union of this set and others
 
 
-x={1,2,3,4,5,6,7}
-y={11,22,33,44,55,66,77}
-# 1
-x.add(11)
-# print(x)
+# x={1,2,3,4,5,6,7}
+# y={11,22,33,44,55,66,77}
+# # 1
+# x.add(11)
+# # print(x)
 
-z=x.copy()
-print(z)
+# z=x.copy()
+# print(z)
+
+number={1,2,3,4,5,6,7,8,9,10}
+odd={1,3,5,7,9}
+even={2,4,6,8,10}
+print(odd.isdisjoint(even))
+print(number.issuperset(odd))
+print(odd.issuperset(number))
+print(odd.issubset(number))
