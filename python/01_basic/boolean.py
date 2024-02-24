@@ -72,7 +72,14 @@
 #   print("NO!")
 
 
+mainString="abababa"
+subStr="aba"
+print(mainString.count(subStr))
+print(mainString.index(subStr))
 
 
-x = 200
-print(isinstance(x, int))
+
+
+
+# x = 200
+# print(isinstance(x, int))
