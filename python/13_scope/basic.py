@@ -35,7 +35,7 @@
 
 
 
-# If you use the global keyword, the variable belongs to the global scope:
+# If you use the global keyword, thxe variable belongs to the global scope:
 
 def myfunc():
   global x

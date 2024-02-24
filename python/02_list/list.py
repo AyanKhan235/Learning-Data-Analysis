@@ -32,12 +32,12 @@
 # print(thislist2)
 
 
-# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-# print(thislist[2:5])
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:5])
 
 
-# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-# print(thislist[-4:-1])
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[-4:-1])
 
 #Negative indexing means starting from the end of the list.
 
