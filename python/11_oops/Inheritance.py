@@ -28,5 +28,6 @@ class Student(Person):
     print("Welcome", self.name, self.password, "to the class of", self.graduationyear)
 
 x = Student("Mike", "Olsen", 2019)
+x.printName()
 print(x.graduationyear)
 x.welcome()
